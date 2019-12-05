@@ -26,7 +26,7 @@ abstract class Styles {
 
   static const TextStyle whiteIshTitle = TextStyle(
     color: Colors.white70,
-    fontSize: 18,
+    fontSize: 22,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.bold,
   );

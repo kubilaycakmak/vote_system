@@ -38,10 +38,11 @@ class _LoginPageState extends State<LoginPage> {
             CupertinoTextField(
               padding: EdgeInsets.symmetric(horizontal: SizeConfig.blockSizeHorizontal * 10),
               controller: _username,
-              cursorColor: Colors.white70,
+              cursorColor: Colors.white10,
               textAlignVertical: TextAlignVertical.center,
               style: Styles.whiteIshTitle,
               placeholder: 'username',
+              placeholderStyle: Styles.whiteIshTitle,
               decoration: BoxDecoration(
               ),
             ),
@@ -53,12 +54,13 @@ class _LoginPageState extends State<LoginPage> {
               padding: EdgeInsets.symmetric(horizontal: SizeConfig.blockSizeHorizontal * 10),
               controller: _password,
               placeholder: 'password',
+              placeholderStyle: Styles.whiteIshTitle,
               decoration: BoxDecoration(
               ),
             ),
             SizedBox(height: 30,),
             CupertinoButton(
-              child: Text('Enter'),
+              child: Text('Enter', style: Styles.whiteIshTitle,),
               onPressed: null,
             ),
           ],
