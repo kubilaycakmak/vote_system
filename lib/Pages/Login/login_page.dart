@@ -1,3 +1,4 @@
+import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:vote_system/Pages/Styles/size_config.dart';
@@ -14,6 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   TextEditingController _username;
   TextEditingController _password;
   TextEditingController _tcno;
+
 
   @override
   void initState() {
@@ -69,3 +71,4 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
